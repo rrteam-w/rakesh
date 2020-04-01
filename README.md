@@ -1,4 +1,4 @@
-*****Online Banking Syste*****
+*****Online Banking System*****
 
 The Banking system consists of two parts: User-Front and Admin-Portal. 
 
