@@ -25,6 +25,10 @@ Note: No need to pass the username and password to access database. By default u
 In this application, It provides the user interface to access our webservices via web browser.
 This is the url, to see webservices in browser. http://localhost:8080/swagger-ui.html.
 
+# SpringBootThymeleaf
+Thymeleaf is a Java-based library used to create a web application. It provides a good support for serving a XHTML/HTML5 in web applications.
+Note: I have added spring-boot-devtools in the pom.xml file, In order to stop the server when changes made in code, this will do auto build and publish your code in the server.
+
 #Case Study#
 *****Online Banking System*****
 
