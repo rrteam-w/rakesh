@@ -21,6 +21,10 @@ Click on Test Connection button and then click on connect.
 
 Note: No need to pass the username and password to access database. By default username will be added as 'sa'. password is optional.
 
+# SpringBootSwagger2
+In this application, It provides the user interface to access our webservices via web browser.
+This is the url, to see webservices in browser. http://localhost:8080/swagger-ui.html.
+
 #Case Study#
 *****Online Banking System*****
 
