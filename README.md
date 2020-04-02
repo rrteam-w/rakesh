@@ -29,6 +29,12 @@ This is the url, to see webservices in browser. http://localhost:8080/swagger-ui
 Thymeleaf is a Java-based library used to create a web application. It provides a good support for serving a XHTML/HTML5 in web applications.
 Note: I have added spring-boot-devtools in the pom.xml file, In order to stop the server when changes made in code, this will do auto build and publish your code in the server.
 
+# SpringBootActuator
+Spring Boot Actuator provides secured endpoints for monitoring and managing your Spring Boot application. 
+By default, all actuator endpoints are secured. In order to disable the security for actuator endpoints.
+Write this property in application.properties file management.security.enabled = false
+So that we can access the actuator endpoints like health, info, env, beans, mappings and etc...
+
 #Case Study#
 *****Online Banking System*****
 
