@@ -4,30 +4,23 @@
 
 	With this application , we are able to do CRUD oprations like SAVE OR UPDATE OR DELETE OR FETCH the Customer Level Information.
 
-  Note : Use Postman tool for testing.
+#Note : Use Postman tool for testing.
 
 #Built with :
 
 	1. Spring boot 1.5.9.RELEASE
 	2. Java 8
-
 	3. MySQL-8.0.19.0 Database  
-
 	4. mysql-connector-java-5.1.46.jar 
 	5. Maven
 
-
-
 #Restful Pattern:
 
-	POST 	/user/adduser			Save Customer Or User Data
-	GET 	/user/all			Get all
- Customer Or User Data 
-	GET 	/user/{accountid}		Get Specific Customer Or User Data
-
+	POST 	/user/adduser				Save Customer Or User Data
+	GET 	/user/all					Get allCustomer Or User Data 
+	GET 	/user/{accountid}			Get Specific Customer Or User Data
 	PUT 	/api/update/{accountid}		Update Customer Or User by id
-
-	DELETE 	/api/delete/{id}		Delete Customer Or User by id
+	DELETE 	/api/delete/{id}			Delete Customer Or User by id
 
 
 
