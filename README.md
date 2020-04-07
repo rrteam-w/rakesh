@@ -1,12 +1,12 @@
-#Spring Boot With JPA and Oracle Integration
+Spring Boot With JPA and Oracle Integration
 
 	I have developed a Spring Boot Application and with this application I am able to maintain and manipulate the PNC Bank Customer Level information like Customer Account Id ,First Name , Last Name, Email Id , CardType , Balance like.
 
 	With this application , we are able to do CRUD oprations like SAVE OR UPDATE OR DELETE OR FETCH the Customer Level Information.
 
-#Note : Use Postman tool for testing.
+Note : Use Postman tool for testing.
 
-#Built with :
+Built with:
 
 	1. Spring boot 1.5.9.RELEASE
 	2. Java 8
@@ -14,7 +14,7 @@
 	4. mysql-connector-java-5.1.46.jar 
 	5. Maven
 
-#Restful Pattern:
+Restful Pattern:
 
 	POST 	/user/adduser				Save Customer Or User Data
 	GET 	/user/all					Get allCustomer Or User Data 
