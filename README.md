@@ -18,8 +18,8 @@ Restful Pattern:
 
 	POST 	   /user/adduser						Save Customer Or User Data
 	GET 	   /user/all							Get all Customers Or User Data 
-	GET 	   /user/{accountid}					Get  Customer Or User Data
-	PUT 	   /api/update/{accountid}				Update Customer Or User by accountid
+	GET 	   /user/{accountid}						Get  Customer Or User Data
+	PUT 	   /api/update/{accountid}					Update Customer Or User by accountid
 	DELETE 	   /api/delete/{id}						Delete Customer Or User by accountid
 	
 	
