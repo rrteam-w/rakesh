@@ -17,9 +17,6 @@ Built with:
 Restful Pattern:
 
 	POST 	   /user/adduser						Save Customer Or User Data
-
-	![Endpint-Adduser](https://user-images.githubusercontent.com/62999102/78668909-156ee380-78f9-11ea-859e-ea90fef6c4dd.PNG)
-
 	GET 	   /user/all							Get all Customers Or User Data 
 	GET 	   /user/{accountid}					Get  Customer Or User Data
 	PUT 	   /api/update/{accountid}				Update Customer Or User by accountid
