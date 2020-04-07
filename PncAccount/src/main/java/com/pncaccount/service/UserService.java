@@ -29,6 +29,10 @@ public class UserService {
     public User getSpecificUser(Integer	accountid) {
         return this.userDao.findOne(accountid);
     }
+    
+    public void deleteSpecificUser(Integer	accountid) {
+        this.userDao.delete(accountid);
+    }
    
     //other methods omitted for brevity
 }

@@ -38,6 +38,11 @@ public class UserController {
     	return this.userService.getSpecificUser(accountid);
     }
     
+    @RequestMapping(value = "/delete/{accountid}", method = RequestMethod.DELETE)
+    public void deleteSpecificUser(@PathVariable("accountid") Integer accountid){
+    	 this.userService.deleteSpecificUser(accountid);
+    }
+    
     //other controllers omitted for brevity
 
 }
